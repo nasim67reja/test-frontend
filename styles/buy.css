@@ -1,0 +1,101 @@
+.empty-box {
+  min-height: 50vh;
+}
+.items {
+  display: grid;
+  grid-template-columns: 60fr 40fr;
+  gap: 2rem;
+  min-height: 50vh;
+}
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  /* border: 2px solid black; */
+}
+.item img {
+  width: 20%;
+}
+.increment-decrement-card {
+  margin: 10px 0;
+}
+.increment-decrement-card input {
+  width: 40px;
+  padding: 0 5px;
+  margin: 0 2px;
+  font-size: 16px;
+}
+.increment-decrement-card button {
+  font-size: 16px;
+}
+.remove-btn {
+  border: none;
+  background: transparent;
+  font-size: 15px;
+}
+
+.btn-checkout {
+  background: rgb(0, 0, 0);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
+  width: 100%;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  padding: 0.625rem 1.2rem;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-top: 1rem;
+}
+
+.addtocart-btn {
+  padding: 10px 0px;
+  width: 100%;
+  font-size: 25px;
+  font-weight: 600;
+  border-radius: 10px;
+  margin-top: 20px;
+  border: 1px solid #000;
+  transition: 0.4s ease;
+
+  /* already added */
+}
+.inCard {
+  color: #000;
+  cursor: not-allowed !important;
+  border: none;
+}
+.inCard:hover {
+  border: none !important;
+}
+.inNotCard {
+  color: #fff;
+  background-color: #000;
+}
+.addtocart-btn:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+
+/*  empty boxes */
+.viewAll-btn {
+  background: linear-gradient(
+    93.06deg,
+    rgb(176, 41, 224) 7.23%,
+    rgb(106, 59, 219) 61.39%
+  );
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
+  margin-top: 2rem;
+  border: none;
+  border-radius: 2rem;
+  color: white;
+  padding: 1rem 2.5rem;
+  cursor: pointer;
+  font-size: 22px;
+  transition: all 0.3s;
+}
+.viewAll-btn:hover {
+  font-size: 22px;
+  transform: scale(1.1);
+}
