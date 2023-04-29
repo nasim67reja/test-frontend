@@ -2,10 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: [
-      'images.unsplash.com',
-      'sowp-new-backend.herokuapp.com',
-    ],
+    domains: ["res.cloudinary.com", "sowp-new-backend.herokuapp.com"],
   },
 };
 
