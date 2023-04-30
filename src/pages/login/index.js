@@ -44,8 +44,8 @@ const LoginForm = () => {
       );
 
       // Cookies.set("jwt", response.data.token);
-
-      // Cookies.set("jwt", response.data.token, { secure: true });
+      // const token = Cookies.get("jwt");
+      // if (!token) Cookies.set("jwt", response.data.token, { secure: true });
 
       router.push("/");
 

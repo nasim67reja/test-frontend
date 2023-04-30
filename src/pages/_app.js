@@ -9,7 +9,21 @@ import { Provider } from "react-redux";
 import store from "@/store";
 import axios from "axios";
 
+import Cookies from "js-cookie";
+
 export default function App({ Component, pageProps }) {
+  // const token = Cookies.get("jwt");
+
+  // axios.interceptors.request.use(
+  //   (config) => {
+  //     config.headers.Authorization = `Bearer ${token}`;
+  //     return config;
+  //   },
+  //   (error) => {
+  //     return Promise.reject(error);
+  //   }
+  // );
+
   const router = useRouter();
 
   const [pageTitle, setPageTitle] = useState("Dashboard");
