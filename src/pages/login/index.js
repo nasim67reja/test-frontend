@@ -56,7 +56,7 @@ const LoginForm = () => {
     } catch (err) {
       setLoading(false);
 
-      console.log(err.message);
+      console.log(err);
     }
 
     // FireBase
