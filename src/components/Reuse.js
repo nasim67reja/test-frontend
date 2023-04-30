@@ -12,9 +12,9 @@ export const truncateString = (str, num) => {
   }
 };
 // export const URL = "https://sowp-new-backend.herokuapp.com";
-export const URL = "https://test-backend.up.railway.app";
+// export const URL = "https://test-backend.up.railway.app";
 
-// export const URL = "http://localhost:8000";
+export const URL = "http://localhost:8000";
 
 export const convertDateFormate = (dateIn) => {
   const date = new Date(dateIn);
